@@ -15,5 +15,15 @@ class Producto {
 const producto2 = new Producto('Monitor curvo 49" ', 800);
 const producto3 = new Producto('Laptop', 200);
 
-console.log(producto2)
-console.log(producto3)
+class Libro{
+    constructor(nombre, precio, isbn){
+        this.nombre = nombre;
+        this.precio = precio;
+        this.isbn = isbn
+    }
+}
+const libro = new Libro('Javascript la revolucion', 120, '9103254566');
+console.log(libro);
+
+console.log(producto2);
+console.log(producto3);
