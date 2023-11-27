@@ -12,4 +12,4 @@ const reservacion = {
 
 reservacion.informacion()
 
-//con this llama
+//si usa un arrow function no funciona, da undefinded,  xq tomaria un widow.nombre 
