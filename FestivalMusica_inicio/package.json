@@ -1,0 +1,28 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "proyecto con gulp",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "sass",
+    "gulp"
+  ],
+  "author": "meli",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.0"
+  }
+}
